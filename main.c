@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
   int sleep_seconds = SLEEP_SECONDS;
   int timeout_seconds = TIMEOUT_SECONDS;
 
-  char c;
+  int c;
   char *sleep_string = getenv(SLEEP_ENV_VAR);
   char *timeout_string = getenv(TIMEOUT_ENV_VAR);
 
